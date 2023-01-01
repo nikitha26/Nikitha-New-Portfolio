@@ -64,8 +64,8 @@ const Home = () => {
               </div>
             </Bounce>
             <a href="../../data/Nikitha - React Developer.pdf" download="resume" target="_blank" rel="noreferrer">
-              <button class="MuiButtonBase-root MuiButton-root MuiButton-text jss82" tabindex="0" type="button">
-                <span class="MuiButton-label">Download CV</span><span class="MuiTouchRipple-root"></span>
+              <button className="MuiButtonBase-root MuiButton-root MuiButton-text jss82" tabIndex="0" type="button">
+                <span className="MuiButton-label">Download CV</span><span className="MuiTouchRipple-root"></span>
               </button>
                 </a>
             {/* <div className="scroll-down">
