@@ -15,7 +15,7 @@ export const Experi = () => {
                 className="vertical-timeline-element--work"
                 contentStyle={{ background: 'rgb(62,69,85)', color: '#fff' }}
                 contentArrowStyle={{ borderRight: '7px solid  rgb(62,69,85)' }}
-                date="2021-09 - present"
+                date="Sep 2021 - Present"
                 iconStyle={{ background: 'rgb(11,230,121)', color: '#fff' }}
             >
                 <h3 className="vertical-timeline-element-title">Software Engineer</h3>
@@ -37,7 +37,7 @@ export const Experi = () => {
                 className="vertical-timeline-element--work"
                 contentStyle={{ background: 'rgb(62,69,85)', color: '#fff' }}
                 contentArrowStyle={{ borderRight: '7px solid  rgb(62,69,85)' }}
-                date="2021-06 - 2021-08"
+                date="Jun 2021 - Sep 2021"
                 iconStyle={{ background: 'rgb(11,230,121)', color: '' }}
             >
                 <h3 className="vertical-timeline-element-title">UI Developer Intern</h3>

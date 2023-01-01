@@ -11,6 +11,9 @@
 .about-text > ul > li {
   margin-bottom: 10px;
 }
+.about_opt{
+  color: rgb(11, 231, 121);
+}
 .typewriter {
   display: flex;
   align-items: center;

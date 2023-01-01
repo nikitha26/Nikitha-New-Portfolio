@@ -10,10 +10,20 @@ import Navbar from '../navbar/Navbar'
 import config from '../../config'
 import profile from '../../images/matt.png'
 import linkedin from '../../images/social/linkedin.png'
-import { Nikitha } from '../../data/Nikitha - React Developer.pdf'
+import { nikitha } from './nikitha.pdf';
+// import { saveAs } from 'file-saver';
 
 const Home = () => {
   const [imageLoaded, setImageLoaded] = useState(false)
+
+  // const saveFile = () => {
+  //   // fileSaver.saveAs(
+  //   //   process.env.REACT_APP_CLIENT_URL + "./nikitha.pdf",
+  //   //   "MyCV.pdf"
+  //   // );
+  //   var file = new File(["nikitha"], "nikitha.pdf", {type: "pdf"});
+  //   FileSaver.saveAs(file);
+  // };
   return (
     <div className="home-wrapper">
       <div className="home">
@@ -24,7 +34,7 @@ const Home = () => {
               className="profile"
               alt="profile"
               src={profile}
-              style={{borderRadius:'50%',display:'none'}}
+              style={{borderRadius:'50%'}}
               onLoad={() => setImageLoaded(true)}
             />
             <h1 className="greeting-text">
@@ -63,11 +73,12 @@ const Home = () => {
                 </a>
               </div>
             </Bounce>
-            <a href="../../data/Nikitha - React Developer.pdf" download="resume" target="_blank" rel="noreferrer">
+            <a href="./nikitha.pdf" download>
               <button className="MuiButtonBase-root MuiButton-root MuiButton-text jss82" tabIndex="0" type="button">
                 <span className="MuiButton-label">Download CV</span><span className="MuiTouchRipple-root"></span>
               </button>
-                </a>
+            </a>
+           
             {/* <div className="scroll-down">
               <Link
                 activeClass="active"
