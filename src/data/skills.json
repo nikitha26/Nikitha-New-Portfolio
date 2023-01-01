@@ -1,0 +1,49 @@
+{
+  "skills": [
+    {
+      "id": 8,
+      "skillName": "Html,Css",
+      "amount": "90"
+    },
+    {
+      "id": 2,
+      "skillName": "Javascript",
+      "amount": "80"
+    },
+    {
+      "id": 0,
+      "skillName": "React.js",
+      "amount": "65"
+    },
+    {
+      "id": 1,
+      "skillName": "Redux",
+      "amount": "60"
+    },
+    { 
+      "id": 3, 
+      "skillName": "React - Routers", 
+      "amount": "60" },
+    {
+      "id": 5,
+      "skillName": "Jest",
+      "amount": "60"
+    },
+    {
+      "id": 4,
+      "skillName": "REST API Integration",
+      "amount": "80"
+    },
+    
+    { 
+      "id": 6, 
+      "skillName": "GitHub", 
+      "amount": "70" 
+    },
+    { 
+      "id": 7, 
+      "skillName": "Chrome Dev Tools", 
+      "amount": "80" 
+    }
+  ]
+}
